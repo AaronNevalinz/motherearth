@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../tailwind.css">
+</head>
+<body class="h-screen w-full bg-cover" style="background-image: url('images/bg-image.jpg'); background-size: cover;">
+    <header class=" bg-primary">
+        <nav class="px-8 flex justify-between text-white py-5 items-center">
+            <a href="index.html" class="font-bold bg-secondary px-2 py-1 rounded-full text-xs text-primary">Previous</a>
+            <a href="index.html" class="font-bold text-2xl text-white">Mother<span class="text-secondary">Earth</span></a>
+            <a href=""></a>
+        </nav>
+    </header>
+
+    <main class="mt-10 w-6/12 mx-auto">
+       <form action="">
+        <div class="flex gap-3">
+            <label for="" class="rounded-lg w-[280px] bg-primary px-4 text-xl text-grayish py-4">Location: <span class="text-red-600 font-bold text-xl ">*</span></label>
+            <input class="w-full focus:outline-none border-none px-5 bg-primaryTransparent text-grayish rounded-lg text-xl" type="text" name="" id="">
+        </div>
+        <div class="bg-black mt-10 rounded-lg py-6 flex items-center justify-center">
+            <label for="" class="font-medium text-grayish text-xl">
+                What are the most common crops grown in your Location? <span class="text-red-600 font-bold text-xl ">*</span>
+            </label>
+        </div>
+        <textarea placeholder="List the common crops seperated with a comma ie (wheat, soya, maize)" name="" id="" rows="7" class="bg-primaryTransparent rounded-lg focus:outline-none text-grayish p-5 w-full mt-5"></textarea>
+        
+        <button class="text-primary font-bold px-6 rounded-lg py-2 bg-secondary mt-5 ">Submit</button>
+
+       </form>
+    </main>
+
+    <footer class="absolute w-full flex justify-center items-center bottom-0 text-center">
+        <p class="text-white mb-10 font-bold text-sm w-6/12 mx-auto">
+            Benefit from real-time, personalized weather advice tailored to your specific needs, 
+            ensuring you make the best decisions every day. Stay ahead with our accurate 
+            and reliable forecasts.
+        </p>
+    </footer>
+</body>
+</html>

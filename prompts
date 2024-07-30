@@ -1,0 +1,11 @@
+Generate advice for a farmer based on the following inputs:
+
+    Location: {location}
+    Most Planted Crops: {most_planted_crops}
+    Weather Forecast Data: {weather_forecast}
+
+The advice should include:
+
+    A heading and subheading for display in an HTML document.
+    Recommendations on what crops to plant considering the given weather forecast.
+    Expected yield for the recommended crops based on the weather conditions.

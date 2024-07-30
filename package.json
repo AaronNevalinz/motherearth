@@ -1,14 +1,20 @@
 {
   "name": "motherearth",
   "version": "1.0.0",
+  "type": "module",
   "description": "This is google gemini api challenge project by {Aaron and Adam}",
   "main": "sandbox.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i main.css -o tailwind.css --watch"
   },
   "author": "aaron nevalinz",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "@google/generative-ai": "^0.16.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "generative-ai": "^0.1.4",
+    "tailwindcss": "^3.4.7"
   }
 }
