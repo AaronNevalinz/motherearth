@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>City Authority</title>
     <link rel="stylesheet" href="../tailwind.css">
 </head>
 <body class="h-screen w-full bg-cover" style="background-image: url('/src/images/bg-image.jpg'); background-size: cover;">
@@ -15,20 +15,14 @@
         </nav>
     </header>
 
-    <main class="mt-10 w-6/12 mx-auto">
-       <form action="/farmer" method="POST">
+    <main class="mt-10 mx-auto flex justify-center items-center w-full">
+       <form action="/disaster" method="POST">
         <div class="flex gap-3">
             <label for="" class="rounded-lg w-[280px] bg-primary px-4 text-xl text-grayish py-4">Location: <span class="text-red-600 font-bold text-xl ">*</span></label>
-            <input class="w-full focus:outline-none border-none px-5 bg-primaryTransparent text-grayish rounded-lg text-xl" type="text" name="location" id="">
+            <input class="w-full focus:outline-none border-none px-5 bg-primaryTransparent text-grayish rounded-lg text-xl" type="text" name="location" id="" required>
         </div>
-        <div class="bg-black mt-10 rounded-lg py-6 flex items-center justify-center">
-            <label for="" class="font-medium text-grayish text-xl">
-                What are the most common crops grown in your Location? <span class="text-red-600 font-bold text-xl ">*</span>
-            </label>
-        </div>
-        <textarea placeholder="List the common crops seperated with a comma ie (wheat, soya, maize)" name="crops" id="" rows="7" class="bg-primaryTransparent rounded-lg focus:outline-none text-grayish p-5 w-full mt-5"></textarea>
         
-        <button class="text-primary font-bold px-6 rounded-lg py-2 bg-secondary mt-5" type="submit">Submit</button>
+        <button class="text-secondary w-full font-bold px-6 rounded-lg py-2 bg-primary mt-5" type="submit">Submit</button>
 
        </form>
     </main>

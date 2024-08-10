@@ -12,9 +12,13 @@
   "dependencies": {
     "@google/generative-ai": "^0.16.0",
     "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "gemini-to-html": "^2.2.0",
     "generative-ai": "^0.1.4",
+    "marked": "^13.0.3",
     "tailwindcss": "^3.4.7"
   }
 }
